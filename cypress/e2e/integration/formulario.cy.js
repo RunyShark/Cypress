@@ -1,11 +1,11 @@
-describe('Bienvenido al curso de cypress seccion 1', () => {
-  it('Validando el titulo de la pagina', () => {
+describe('Welcome to the cypress course', () => {
+  it('Validating the page title', () => {
     cy.visit('https://testingqarvn.com.es/');
     cy.title('cypress');
     cy.log('test ok');
   });
 
-  it('llenar campos del formulario', () => {
+  it('fill in the form fields', () => {
     cy.visit('https://testingqarvn.com.es/datos-personales/');
     [
       {

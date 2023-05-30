@@ -1,5 +1,5 @@
-describe('type enter', () => {
-  it('cuando presionen entre', () =>
+describe('enter test', () => {
+  it('type enter', () =>
     cy
       .visit('https://www.google.com/')
       .title()
@@ -7,8 +7,6 @@ describe('type enter', () => {
       .log('Ok')
       .get('#APjFqb')
       .type(`peso pluma {enter}`)
-      .get(
-        '#\38 uZuZMSCLbSlptQPt5yp8Ak__49 > div > div > div:nth-child(2) > div > div.L3Ezfd'
-      )
+
       .click(50, 50));
 });

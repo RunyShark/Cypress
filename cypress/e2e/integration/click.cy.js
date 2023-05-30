@@ -11,7 +11,7 @@ describe('asserts', () => {
       .get('#wsf-1-field-34')
       .click());
 
-  it('forzado', () =>
+  it('forced', () =>
     cy
       .visit('https://testingqarvn.com.es/prueba-de-campos-checkbox/')
       .get('#wsf-1-field-29')
@@ -23,7 +23,7 @@ describe('asserts', () => {
       .get('#wsf-1-field-34')
       .click({ force: true }));
 
-  it('cordenadoas', () =>
+  it('coordinates', () =>
     cy
       .visit('https://testingqarvn.com.es/prueba-de-campos-checkbox/')
       .get('#wsf-1-field-29')

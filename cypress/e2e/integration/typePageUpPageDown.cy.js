@@ -1,5 +1,5 @@
-describe('PageDownPageUp', () => {
-  it('PageUp', () => {
+describe('testing PageDown PageUp types', () => {
+  it('PageUp and PageDown', () => {
     cy.visit('https://testingqarvn.com.es/datos-personales/')
       .title()
       .should('eq', 'Datos Personales | TestingQaRvn')
